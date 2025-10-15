@@ -1,4 +1,4 @@
-npm:baileys@6.7.20{
+{
     "description": "dml",
     "main": "./dml.js",
   "engines" : { 

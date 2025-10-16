@@ -1,25 +1,24 @@
 {
-    "description": "dml",
-    "main": "./dml.js",
-  "engines" : { 
-    "npm" : ">=9.7.2",
-    "node" : ">=20.0.0"
-    },
-    "scripts": {
-    "start": "node dml.js"
+  "name": "dml-session",
+  "main": "./dml.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "pm2 start index.js --deep-monitoring --attach --name dml",
+    "stop": "pm2 stop dml",
+    "restart": "pm2 restart dml"
   },
-  "author": "dml",
+  "author": "Dml Tech",
   "license": "GPL-3.0 license",
   "dependencies": {
-    "@whiskeysockets/baileys":"npm:baileys@6.7.20",
-    "maher-zubair-baileys": "^6.6.5",
-    "qrcode": "^1.5.3",
-    "awesome-phonenumber": "^2.64.0",
-    "pino": "^8.1.0",
-    "phone" : "3.1.30",
-    "body-parser": "^1.20.1",
-    "pastebin-js": "^1.0.6",
-    "express": "^4.18.1",
-    "path": "^0.12.7"
-   }
+    "@whiskeysockets/baileys": "npm:baileys@6.7.20",
+    "bcryptjs": "^3.0.2",
+    "body-parser": "*",
+    "express": "*",
+    "fs": "*",
+    "path": "*",
+    "pino": "*",
+    "pino-pretty": "^13.0.0",
+    "pm2": "*",
+    "qrcode": "*"
+  }
 }

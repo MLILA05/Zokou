@@ -14,7 +14,7 @@
       },
       "MESSAGE": {
         "description": "set session id conformation message",
-        "value": "",
+        "value": "5000",
         "required": false 
       }
     }   

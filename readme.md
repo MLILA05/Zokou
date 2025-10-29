@@ -10,4 +10,4 @@ https://github.com/MLILA17
 
 
 Follow Official Whatsapp Channel 
-Follow the 🅳🅼🅻 𝕋𝔼ℂℍ channel on WhatsApp: https://whatsapp.com/channel/0029Vb2hoPpDZ4Lb3mSkVI3C
+Follow the DML- TECH-VISION channel on WhatsApp: https://whatsapp.com/channel/0029VbBf4Y52kNFkFCx2pF1H
